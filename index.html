@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="https://runeapps.org/nis/nis.css" />
+    <link rel="stylesheet" type="text/css" href="runeappslib.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script type="text/javascript" src="https://runeapps.org/alt1lib.js"></script>
+    <script type="text/javascript" src="https://runeapps.org/runeappslib.js"></script>
+    <script type="text/javascript" src="https://runeapps.org/imagedetect.js"></script>
+    <script type="text/javascript" src="minimap.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body class="nis" onload="start();">
+    <div id="container">        
+        <div class="text-container">
+            <h1 id="status">Starting up...</h1>
+            <h1 id="npcs"></h1>
+            <h1 id="items"></h1>
+            <h1 id="players"></h1>
+        </div>
+        <div id="state-button" class="nisbutton" onclick="changeState();">Start</div>
+        <div id="settings">
+            <div id="settingsbutton" onclick="settingsMenu();" title="Settings" class="nissmallimagebutton menubutton">Settings</div>
+
+        </div>
+    </div>
+</body>
+</html>
