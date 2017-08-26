@@ -75,6 +75,7 @@ var container = null;
 var stateButton = null;
 
 function start() {
+	a1lib.identifyUrl("https://raw.githubusercontent.com/notgoodalso/PlayerSpotter/master/appconfig.json");
 	loadStorage();
 	statusText = document.getElementById("status");
     if (!window.alt1) {
